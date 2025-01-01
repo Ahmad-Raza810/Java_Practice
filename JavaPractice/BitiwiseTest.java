@@ -1,3 +1,5 @@
+package JavaPractice;
+
 public class BitiwiseTest {
     public static void main(String[] args) {
         //to perform manipulation on bit level

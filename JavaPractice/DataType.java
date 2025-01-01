@@ -1,3 +1,4 @@
+package JavaPractice;
 
 public class DataType {
     public static void main(String[] args) {
