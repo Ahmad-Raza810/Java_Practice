@@ -67,6 +67,8 @@ public class DataType {
         //a method for converting  decimal number to binary number
         //return a string
         int aNumber=(int)Long.MAX_VALUE;
+
+        //this static method only present in Integer and Long class.it specifically desigend for integers number
         System.out.println(Integer.toBinaryString(aNumber));
 
 
@@ -78,5 +80,6 @@ public class DataType {
        //demo
         byte myByte2=10;
         myByte2+=10;
+        ;
     }
 }
