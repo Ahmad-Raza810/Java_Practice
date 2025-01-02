@@ -77,5 +77,7 @@ public class StringMethods {
 
         System.out.println(d2 instanceof String);
         //System.out.println(d instanceof  double);
+
+        System.out.println("Just Checking Github.......");
     }
 }
