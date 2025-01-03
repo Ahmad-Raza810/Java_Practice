@@ -79,5 +79,26 @@ public class StringMethods {
         //System.out.println(d instanceof  double);
 
         System.out.println("Just Checking Github.......");
+
+        System.out.println("\n_____________________________________________________________________________________________\n");
+
+       //Java implicitly calls the toString() method of that object. If you haven't overridden toString(), the default implementation in the Object class is used, which returns the string classname@hashcode.
+        //
+        //However, the default implementation is often not useful for practical purposes.
+        Person p=new Person();
+        System.out.println(p.toString());
+
+        char [] Name=name.toCharArray();
+        System.out.println(Name[0]);
+
+    }
+}
+class Person{
+   String name="Ahmad";
+   int age=20;
+
+    @Override
+    public String toString() {
+        return "Person[Name:"+name+",Age:"+age+"]";
     }
 }
