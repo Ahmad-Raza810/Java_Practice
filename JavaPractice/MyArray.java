@@ -30,7 +30,27 @@ public class MyArray {
         {
             System.out.print(f+"  ");
         }
-        System.out.println("\n_____________________________________________________________________________________________\n");
+        System.out.println("\n____________________________________________________________________________________________\n");
+
+        //matrix Array
+        char[][] alphabet;
+        char minimum=Character.MAX_VALUE;
+        alphabet=new char[][] {{'a','b','c'},{'d','e','f'},{'g','h','i'}};
+        for (char row []:alphabet)
+        {
+           for (char charcter:row)
+           {
+
+               if(minimum>charcter)
+               {
+                   minimum=charcter;
+
+               }
+           }
+            System.out.println();
+
+        }
+        System.out.println("The Minimum charcter: "+minimum);
 
     }
 }
